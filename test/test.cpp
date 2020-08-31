@@ -6,4 +6,5 @@
 TEST_CASE("Addition works") {
     Calculator<int> calcInt;
     REQUIRE(calcInt.add(1, 2) == 3);
+    REQUIRE(calcInt.add(2, 2) == 4);
 }
